@@ -1,0 +1,20 @@
+.topBtn{
+background-color: #FF001F;
+border: none;
+outline: none;
+/* padding: 10px 20px; */
+width: 40px;
+height: 40px;
+position: fixed;
+bottom: 0;
+right: 0;
+z-index: 999;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+.topBtn::after{
+    content: '\2191';
+    color: #fff;
+    text-align: center;
+}

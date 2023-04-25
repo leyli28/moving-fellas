@@ -1,0 +1,23 @@
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 40px;
+}
+.navItems a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 15px;
+	transition: 0.15s ease-in;
+}
+
+.navItems a:hover{
+	cursor: pointer;
+	color: #FF001F
+}
+
+.navItems a:last-of-type:hover{
+	color: #fff;
+}

@@ -1,0 +1,116 @@
+#companies .mt50{
+    margin-top: 50px;
+}
+
+.companies {
+	display: flex;
+	width: 100%;
+}
+
+.companyCard {
+    text-decoration: none;
+	width: calc(100% / 5 - 20px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* background-color: #cfcf; */
+	margin-right: 20px;
+}
+
+.companyImg {
+	width: 150px;
+}
+
+.companyImg img {
+	width: 150px;
+	height: 75px;
+	object-fit: contain;
+	mix-blend-mode: multiply;
+}
+
+.companyInfo {
+	text-align: center;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	color: #333333;
+}
+
+.flexColumn{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 890px) {
+    
+  .companies{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .companyCard{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .companyCard:nth-last-of-type(2){
+        margin-top: 40px;
+    }
+
+    .companyCard:last-of-type{
+        margin-top: 40px;
+    }
+
+    
+    }
+
+    @media screen and (max-width: 500px) {
+    
+        #companies h2{
+            font-size: 40px;
+        }
+ 
+        .companyCard{
+            width: calc(100% / 2 - 20px);
+        }
+
+        .companyCard{
+            margin-top: 30px;
+        }
+
+        .companyCard:nth-last-of-type(2){
+            margin-top: 30px;
+        }
+    
+        .companyCard:last-of-type{
+            margin-top: 30px;
+        }
+
+        }
+
+        @media screen and (max-width: 450px) {
+    
+          
+    
+            .companyCard{
+                width: calc(100% / 1 - 10px);
+            }
+    
+            .companyCard{
+                margin-top: 30px;
+            }
+    
+            .companyCard:nth-last-of-type(2){
+                margin-top: 30px;
+            }
+        
+            .companyCard:last-of-type{
+                margin-top: 30px;
+            }
+
+            }

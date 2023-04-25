@@ -1,0 +1,190 @@
+@media screen and (max-width: 1120px) {
+	.sliderleftSide {
+		width: 450px;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	#dark .card {
+		max-width: calc(100% / 3 - 10px);
+		margin-bottom: 20px;
+	}
+
+	.darkSection .wrapper {
+		flex-wrap: wrap;
+	}
+
+	.sliderRightside {
+		cursor: pointer !important;
+	}
+
+	.cursor {
+		display: none !important;
+		cursor: pointer !important;
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	.sliderleftSide {
+		width: 350px;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.sliderSection {
+		flex-direction: column;
+		margin-bottom: -100px;
+	}
+
+	.sliderleftSide {
+		width: 100% !important;
+		max-width: 100%;
+	}
+
+	.sliderRightside {
+		position: static;
+		margin-top: 50px;
+		margin-bottom: 80px;
+	}
+
+	.slick-slide:hover {
+		cursor: grab;
+	}
+
+	.slick-slide > div {
+		padding-right: 20px !important;
+		outline: none;
+	}
+}
+
+@media screen and (max-width: 745px) {
+	#dark .card {
+		max-width: calc(100% / 2 - 10px);
+		margin-bottom: 20px;
+	}
+
+	.meshImg {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.sliderSection {
+		margin-bottom: 20px;
+	}
+
+	.slick-slide {
+		max-width: 100%;
+	}
+	.slick-slide >div{
+		max-width: 600px  !important;
+
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.slick-slide {
+		max-width: 100%  !important;
+		
+	}
+
+	.slick-slide >div{
+		max-width: 500px  !important;
+
+	}
+
+
+	.sliderCard {
+		max-width: 500px !important;
+		
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+#reviews h2{
+font-size: 40px;
+}
+
+	.meshImg {
+		width: 450px;
+	}
+
+
+	#dark .card {
+		max-width: calc(100% / 1);
+		margin-bottom: 20px;
+	}
+
+	.slick-slide >div{
+		max-width: 380px  !important;
+		
+	}
+
+
+	.sliderCard{
+		max-width: 380px !important;
+	}
+
+	.slick-slide  {
+		margin-right: 0 !important;
+		width: 100%;
+		max-width: 480px !important;
+	}
+	.sliderRightside{
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.sliderleftSide{
+		width: 300px !important;
+		
+	} 
+
+	.sliderleftSide h2{
+		font-size: 40px;
+
+	}
+
+	.meshImg {
+		width: 350px;
+	}
+
+	.slick-slide >div{
+		max-width: 380px !important;
+		width: 100%;
+		padding-right: 10px !important;
+	}
+
+	.slick-slide  {
+		margin-right: 0 !important;
+		max-width: 380px !important;
+		width: 100%;
+	}
+
+
+	.sliderCard {
+		max-width: 380px !important;
+		width: 100%;
+	}
+
+	.modal-window > .modal-box {
+		width: 350px;
+		background-color: rgba(21, 20, 20, 0.5);
+	}
+
+	.modal-close {
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (max-width: 380px) {
+
+	.modal-window > .modal-box {
+		width: 300px;
+	}
+}
+

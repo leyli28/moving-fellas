@@ -1,0 +1,112 @@
+@media screen and (max-width: 1170px) {
+    .stickyBody{
+        max-width: 500px !important;
+    }
+
+
+
+    .sticky{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1057px) {
+    .stickyBody{
+        max-width: 450px !important;
+    }
+
+    .sticky h2{
+        font-size: 40px;
+    }
+
+    .sticky{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .stickyBody{
+        max-width: 450px !important;
+    }
+
+    .sticky h2{
+        font-size: 35px;
+    }
+
+    .sticky{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .stickyBody{
+        max-width: 400px !important;
+    }
+
+
+    .sticky{
+        width: 350px;
+    }
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .stickyBody{
+        max-width: 350px !important;
+    }
+
+
+    .sticky{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #services .wrapper{
+        flex-direction: column;
+      }
+    
+      #services.mt150{
+        margin-top: 60px !important;
+      }
+    
+    .stickyBody{
+        max-width: 100% !important;
+    
+    }
+
+    .sticky{
+        width: 100%;
+        margin-bottom: 50px;
+        position: static;
+    }
+
+    .sticky h2{
+        font-size: 32px;
+    }
+
+    
+}
+
+@media screen and (max-width: 590px) {
+  
+
+
+    .stickyBody{
+        max-width: 100% !important;
+    }
+
+    .sticky h2{
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .meshShape{
+        width: 300px;
+        height: 300px;
+    }
+
+}

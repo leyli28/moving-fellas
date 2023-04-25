@@ -1,0 +1,190 @@
+@media screen and (max-width: 1345px) {
+	.mainForm {
+		width: 1200px;
+	}
+	.formBodyOne {
+		max-width: calc(100% / 3 - 10px);
+	}
+}
+
+@media screen and (max-width: 1220px) {
+	.mainForm {
+		width: 1100px;
+	}
+	.formBodyOne {
+		max-width: calc(100% / 3 - 25px);
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	.mainForm {
+		width: 1040px;
+	}
+	.formBodyOne {
+		max-width: calc(100% / 3 - 35px);
+	}
+}
+
+@media screen and (max-width: 1070px) {
+	.mainForm {
+		width: 1000px;
+	}
+	.formBodyOne {
+		max-width: 275px;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.mainForm {
+		width: 950px;
+	}
+
+	.formBodyOne {
+		max-width: 250px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.formBody > .wrapper {
+		flex-wrap: wrap;
+	}
+	.formBodyOne {
+		max-width: 415px;
+	}
+
+	.mainForm {
+		width: 900px;
+	}
+	.formBodyOne:last-child {
+		max-width: 850px;
+	}
+}
+@media screen and (max-width: 925px) {
+	.mainForm {
+		width: 800px;
+	}
+
+	.formBodyOne {
+		max-width: calc(100% / 2 - 10px);
+	}
+
+	.formBodyOne:last-child {
+		max-width: 800px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.mainForm {
+		width: 700px;
+	}
+
+	.formBodyOne:last-child {
+		max-width: 700px;
+	}
+}
+
+@media screen and (max-width: 725px) {
+	.mainForm {
+		width: 500px;
+	}
+
+	.formBodyOne {
+		max-width: 500px;
+	}
+
+	.formBodyOne:last-child {
+		max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.mainForm {
+		width: 100%;
+	}
+
+	.formBodyOne {
+		/* max-width: 350px; */
+		margin-top: 10px;
+	}
+
+	.formBodyOne {
+		display: block;
+	}
+
+	.formBodyOne:first-child {
+		margin-top: 20px;
+	}
+
+	.formBodyOne input[type="date"] {
+		width: 100%;
+		text-align: left;
+	}
+
+	.infowrap {
+		flex-wrap: wrap;
+	}
+	.infowrap input {
+		width: 100%;
+	}
+
+	.flexdrclmnn select {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.flexdrclmnn {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	/* input[type="date"]::placeholder {
+		content: "mm/dd/yyyy" !important;
+	}
+
+	input[type="date"]::-webkit-datetime-edit,
+	input[type="time"]::-webkit-datetime-edit {		
+		width: 100%;
+	}
+
+	input[type="date"],
+	input[type="time"] {
+		width: 100%;
+		-moz-appearance: textfield;
+		-webkit-appearance: none;
+	} */
+
+     .datepicker::after{
+        content: 'mm/dd/yyyy';
+        position: relative;
+        top: -35px;
+        left: 15px;    
+        z-index: 9999;
+    }
+
+    .dateclass{
+        width:100%;
+        -webkit-appearance: none;
+        }
+        
+        .dateclass.placeholderclass::before{
+        width:100%;
+        content:attr(placeholder);
+        }
+        
+        .dateclass.placeholderclass:focus:hover::before{
+        width:0%;
+        content:"";
+        }
+      
+
+}
+
+@media screen and (max-width: 400px) {
+	.mainForm {
+		width: 100%;
+	}
+
+	.formBodyOne {
+		max-width: 350px;
+	}
+}

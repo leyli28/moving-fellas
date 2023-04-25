@@ -1,0 +1,159 @@
+#price .mt50 {
+	margin-top: 50px;
+}
+
+#price .wrap{
+	display: flex;
+	justify-content: space-between !important;
+}
+
+.priceCrad {
+	width: calc(100% / 3 - 20px);
+	padding: 20px;
+	background: transparent;
+    height: 100%;
+	border-radius: 12px;
+	cursor: auto;
+	transition:  0.5s ease-in-out;
+    border: 1.5px solid rgba(223, 223, 223, 0.23)
+}
+
+ #classicPlus {
+	background: url(../../assets/image.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#classicPlus > button {
+	background: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	border: none;
+	color: #042aa1;
+}
+
+.priceCrad:hover > button {
+	background: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	border: none;
+	color: #042aa1;
+}
+
+#classicPlus .priceHead h6{
+	color: #f0f0f0!important;
+}
+#classicPlus .priceHead h4{
+	color: #f0f0f0!important;
+}
+#classicPlus .priceHead p{
+	color: #f0f0f0!important;
+}
+
+#classicPlus .priceOptions > li {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	color: #f0f0f0;
+}
+#classicPlus .priceOptions li:before {
+	content: url(../../assets/Checked_white.svg);
+}
+
+.priceCrad > button {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: transparent;
+	border: 1px solid #ff001f;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.priceHead h6 {
+	font-family: "SF UI Display";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 100%;
+    text-transform: none;
+	color: #333333;
+    margin-bottom: 15px;
+}
+
+.priceHead h4 {
+	font-family: "SF UI Display";
+	font-style: normal;
+	font-weight: 700;
+	/* font-size: 40px; */
+	font-size: 35px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #042aa1 !important;
+    margin-bottom: 15px;
+}
+
+.priceHead p{
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333 !important;
+	
+}
+
+.priceHead {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333 !important;
+}
+
+.priceOptions li {
+	list-style: none;
+	font-family: "Quicksand";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 100%;
+	display: flex;
+	margin-top: 26px;
+}
+
+.priceOptions li:before {
+	content: url(../../assets/Checked.svg);
+	font-family: FontAwesome;
+	display: inline-block;
+	align-items: center;
+	margin-right: 5px;
+}
+
+.priceOptions li:first-of-type {
+	margin-top: 30px !important;
+}
+
+.priceOptions li:last-of-type {
+	margin-bottom: 21px !important;
+}

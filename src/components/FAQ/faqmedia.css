@@ -1,0 +1,176 @@
+
+@media screen and (max-width: 1145px) {
+
+    .faqImgBox {
+        
+        max-width: 550px !important;
+        
+    }
+
+    .faqBox{
+        max-width:450px
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+
+    .faqImgBox {
+        
+        max-width: 450px !important;
+        
+    }
+
+    .faqImg{
+        width: 400px;
+    }
+
+
+}
+
+@media screen and (max-width: 920px) {
+
+.faqSection .wrapper {
+    flex-wrap: wrap;
+}    
+
+.faqBox, .faqImgBox{
+    max-width: 100% !important;
+    width: 100%;
+}
+
+.faqImgBox{
+    margin-top: 100px;
+}
+
+.bag2{
+    top:-20px;
+    left: 150px
+}
+
+.like2{
+    right: 180px !important;
+}
+
+.calendar2{
+    left: 180px;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .bag2{
+       
+        left: 80px !important;
+    }
+
+    .calendar2{
+        left: 150px !important;
+    }
+
+    .like2{
+        right: 120px !important;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .bag2{
+       
+        left: 30px !important;
+    }
+
+    .calendar2{
+        left: 80px !important;
+    }
+
+    .like2{
+        right: 90px !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .bag2{
+       
+        left: 0 !important;
+    }
+
+    .calendar2{
+        left: 30px !important;
+    }
+
+    .like2{
+        right: 50px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #faq h2{
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .bag2{
+       
+        left: -30px !important;
+    }
+
+    .calendar2{
+        left: -15px !important;
+    }
+
+    .like2{
+        right: 10px !important;
+    }
+
+    .faqSection{
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .bag2{
+       top: -80px;
+        left: -20px !important;
+    }
+
+    .faqImg{
+        width: 320px;
+    }
+
+
+
+    .like2{
+        right: 25px !important;
+        bottom: -80px;
+    }
+
+    .faqSection{
+        padding-top: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+
+    .bag2{
+       
+        left: 10px !important;
+    }
+
+    .faqImg{
+        width: 300px !important;
+    }
+
+
+
+}

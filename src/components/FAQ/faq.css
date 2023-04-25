@@ -1,0 +1,167 @@
+.accordion {
+	background-color: transparent;
+	color: #042aa1;
+	cursor: pointer;
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	transition: 0.4s;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: "SF UI Display", sans-serif;
+}
+
+.active,
+.accordion:hover {
+	background-color: #ededed;
+}
+
+.accordion:after {
+	content: "\002B";
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0 20px;
+	background-color: transparent;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.2s ease-out;
+}
+
+.faqSection {
+	padding: 200px 0;
+	min-height: 100vh;
+	position: relative;
+}
+
+.faqSection h2 {
+	margin-bottom: 40px;
+}
+
+.faqBox {
+	width: 100%;
+	max-width: 590px;
+}
+
+.faqImgBox {
+	width: 100%;
+	max-width: 590px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.faqImg {
+	position: relative;
+	z-index: 1;
+}
+
+.bag2 {
+	position: absolute;
+	top: -80px;
+	left: -55px;
+	width: 157px;
+	z-index: 0;
+}
+
+.calendar2 {
+	position: absolute;
+	bottom: 34px;
+	left: -10px;
+	z-index: 3;
+	width: 94px;
+}
+
+.like2 {
+	position: absolute;
+	bottom: -50px;
+	right: -10px;
+	width: 96px;
+	filter: blur(2px);
+	transform: rotateZ(20deg);
+}
+
+/* Accordion styles */
+.faqBox input {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+
+
+.tab {
+	width: 100%;
+	padding: 10px 20px;
+	color: white;
+	overflow: hidden;
+	border: none;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.tab:first-of-type{
+	border-top: 1px solid #d7d7d7;
+}
+
+.tab-label {
+	background-color: transparent;
+	color: #042aa1;
+	cursor: pointer;
+
+	width: 100%;
+	
+	text-align: left;
+	outline: none;
+	font-size: 18px;
+	transition: 0.1s;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-family: "SF UI Display", sans-serif;
+	/* Icon */
+}
+
+.tab-label::after {
+	content: "\002B";	
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+	transition: all 0.3s;
+}
+.tab-content {
+	max-height: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+/* .tab-close:hover {
+	background: #1a252f;
+} */
+
+input:checked + .tab-label {
+	content: "\2212";
+	
+}
+input:checked + .tab-label::after {
+	transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+	max-height: 100vh;
+	padding: 20px 0;
+	color: #777;
+	opacity: 1;
+}
+
+

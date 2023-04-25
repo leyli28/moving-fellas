@@ -1,0 +1,164 @@
+.videocontainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.videocontainer h2 {
+	font-family: "SF UI Display";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 45px;
+	line-height: 110%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #042aa1;
+	margin-bottom: 30px;
+}
+
+.videoBox {
+	position: relative;
+}
+
+.videocontainer video {
+	width: 890px;
+}
+
+.videocontainer .playBtn {
+	position: absolute;
+	outline: none;
+	background: none;
+	border: none;
+	top: 50%;
+	left: 50%;
+}
+
+.videocontainer .pauseBtn {
+	position: absolute;
+	outline: none;
+	background: none;
+	border: none;
+	top: 50%;
+	left: 50%;
+}
+.videocontainer .muteBtn {
+	position: absolute;
+	outline: none;
+	background: none;
+	border: none;
+     bottom: 0;
+  /*  left: 20px;
+	 */
+}
+.videocontainer .volumeBtn {
+	position: absolute;
+	outline: none;
+	background: none;
+	border: none;
+    bottom: 0;	
+}
+
+.videocontainer .volumebar{
+    opacity: 0;
+	position: absolute;
+	outline: none;
+	background: none;
+	border: none;
+    bottom: 9px;
+    left: 35px;
+    height: 3px !important;
+    transition: opacity .1s cubic-bezier(.4,0,1,1);
+	
+}
+
+.volumeBox{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 10px;
+    padding: 0 0 20px; 
+	opacity: 0;
+	transition: opacity .1s cubic-bezier(.4,0,1,1);
+}
+.fullscreenBtn{
+	position: absolute;
+	outline: none;
+	background: none;
+	border: none;
+	right: 0;
+	bottom: 20px;
+	opacity: 0;
+	/* padding-bottom: 15px; */
+     /* bottom: 0; */
+} 
+
+
+
+.playpauseBox {
+	opacity: 0;
+}
+
+.videoBox:hover .playpauseBox {
+	opacity: 1;
+}
+
+.muteBtn:hover .volumebar{
+display: none;
+}
+
+.volumeBox:hover .volumebar{
+    /* transition: 0.10s; */
+    transition: opacity .1s cubic-bezier(.4,0,1,1);
+    opacity: 1;
+}
+
+.controlsBox{
+	
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    width: 850px;
+	transition: opacity .1s cubic-bezier(.4,0,1,1);
+    
+}
+
+.controlsBox:hover .videoRange{
+	opacity: 1;
+	
+}
+.controlsBox:hover .volumeBox{
+	opacity: 1;
+}
+.controlsBox:hover .fullscreenBtn{
+	opacity: 1;
+}
+
+
+.videoRange{
+	opacity: 0;
+    width: 100%;
+    height: 3px !important;
+	transition: opacity .1s cubic-bezier(.4,0,1,1);
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.videocontainer video {
+		width: 100%;
+	}
+	.videoBox{
+		width: 100%;
+		height: 100%;
+	}
+	iframe{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.videocontainer h2 {
+		font-size: 40px;
+	}
+}

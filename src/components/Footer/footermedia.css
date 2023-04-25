@@ -1,0 +1,156 @@
+@media screen and (max-width: 1045px) {
+	.logoDiv {
+		grid-area: logo;
+	}
+	.linkDiv {
+		grid-area: link;
+	}
+	.adressDiv {
+		grid-area: adress;
+	}
+	.phoneDiv {
+		grid-area: phone;
+	}
+	.emailDiv {
+		grid-area: email;
+	}
+	.copyDiv {
+		grid-area: copy;
+	}
+
+	.footerElements {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-template-areas:
+		" link adress email  copy"
+		" link phone  email copy";
+		grid-gap: 30px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+
+	.footerElements {
+		display: grid;
+		grid-template-columns: auto auto auto ;
+		grid-template-areas:
+		" link adress email  "
+		" link phone copy";
+		grid-gap: 40px;
+	}
+
+}
+@media screen and (max-width: 825px) {
+
+	.textDiv{
+	width: 350px;
+	}
+
+	.textDiv p{
+		inline-size: 300px;
+	}
+	
+}
+@media screen and (max-width: 795px) {
+	.footerElements{
+		grid-template-columns: auto auto ;
+		grid-template-areas:
+		" link adress "
+		" link phone "
+		" email  copy";
+		grid-gap: 30px;
+		
+	}
+}
+@media screen and (max-width: 685px) {
+	.footerElements{
+		grid-gap: 20px;
+		
+	}
+}
+@media screen and (max-width: 665px) {
+.footerNav{
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.logoDiv
+{
+	margin-bottom: 50px;
+}
+
+}
+
+@media screen and (max-width: 620px) {
+	.white {
+		font-size: 40px;
+	}
+
+	.classForm p {
+		font-size: 16px;
+		width: 300px;
+	}
+
+	.textDiv{
+		width: 300px;
+		}
+	
+		.textDiv p{
+			inline-size: 250px;
+		}
+
+
+}
+
+
+@media screen and (max-width: 565px) {
+	.classForm .wrapper {
+		flex-wrap: wrap;
+	}
+
+	.white {
+		font-size: 40px;
+	}
+
+	.classForm h2 {
+		max-width: 450px !important;
+		font-size: 35px;
+	}
+
+	.classForm p {
+		font-size: 16px;
+		width: 100%;
+	}
+
+	.classForm .mainBtn {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.mesh3 {
+		width: 450px;
+		top: 130px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.footerElements{
+
+		grid-template-columns: auto auto ;
+		grid-template-areas:
+		" link  phone"
+		" link  adress"
+		"email  email "
+		" copy  copy";
+		grid-gap: 20px 50px;
+		
+	}
+
+	.logoDiv p{
+		inline-size: 100%;
+	}
+
+	.mesh3 {
+		width: 350px;
+		top: 140px;
+	}
+}

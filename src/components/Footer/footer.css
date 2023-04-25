@@ -1,0 +1,165 @@
+footer{
+	background-color: #101010;
+	padding: 100px 0;
+	padding-bottom: 50px;
+	position: relative;
+	background-image: url('../../assets/noise.png');
+	background-repeat: repeat;
+	background-size: contain;
+	position: relative;
+	 
+}
+
+footer a{
+	text-decoration: none;
+}
+
+
+
+.classForm{
+	width: 100%;
+	max-width: 1200px;
+	padding: 30px;
+	position: relative;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow: hidden;	
+	background-color: rgba(223, 223, 223, 0.31);
+	border: 1.5px solid rgb(223 223 223 / 23%);	
+	backdrop-filter: blur(2px);
+}
+
+.white{
+	color: #f0f0f0;
+}
+
+.classForm h2{
+	max-width: 560px;
+}
+
+.classForm p{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.mesh3{
+	position: absolute;
+	top: -100px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.footerNav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	position: relative;
+	z-index: 2;
+}
+
+.footerNav a{
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+
+.footerNav h6{
+	margin-bottom: 10px;
+	color: #f0f0f0;
+}
+
+.footerNav p{
+	font-weight: bold;
+	color: #f0f0f0;
+}
+
+.footerElements> div{
+
+	margin-right: 10px;
+
+}
+
+/* .footerElements{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-left: 70px;
+	
+	
+} */
+
+.logoDiv p{
+	inline-size: 200px;
+}
+
+.logoDiv {
+	grid-area: logo;
+}
+.linkDiv {
+	grid-area: link;
+}
+.adressDiv {
+	grid-area: adress;
+}
+.phoneDiv {
+	grid-area: phone;
+}
+.emailDiv {
+	grid-area: email;
+}
+.copyDiv {
+	grid-area: copy;
+	
+}
+
+.footerElements {
+
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	
+	grid-template-areas:
+		"logo link adress phone email copy";
+
+		grid-gap: 30px;
+
+		
+}
+
+.footerElements div{
+	width: 100%;
+/* margin-right: 30px; */
+}
+
+/* .copyDiv{
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	margin-top: 50px;
+	font-size: 13px;
+	color: #3c3c3c;
+	background-color: #101010;
+	padding: 10px;
+
+} */
+
+/* .copyDiv p{
+	text-transform: initial;
+	color: #f0f0f0;
+	
+}
+
+.copyDiv a{
+	text-decoration: none;
+	color: #f0f0f0;
+	font-weight: bold;
+	margin-left: 5px;
+} */
