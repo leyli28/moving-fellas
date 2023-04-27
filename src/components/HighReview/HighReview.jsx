@@ -1,9 +1,9 @@
 import './highreview.css'
-import google from '../../assets/business.png'
+import google from '../../assets/google.jpg'
 import Trustpilot from '../../assets/Trustpilot.png'
 import yelp from '../../assets/yelp.jpg'
 import bbb from '../../assets/bbb.png'
-import angi from '../../assets/Angi.png'
+import angi from '../../assets/angii.jpg'
 import Thumbtack from '../../assets/Thumbtack.png'
 const HighReview = () => {
   return (
@@ -29,10 +29,10 @@ const HighReview = () => {
                 <div className="companyImg"> <img src={Thumbtack} alt="" /></div>
                 <div className="companyInfo">4,9 stars based on 1,719 reviews</div>
                 </a>
-                <a className="companyCard" target="_blank" href='https://www.bbb.org/us/ca/irvine/profile/moving-services/moving-fellas-1126-1000108706'>
+                {/* <a className="companyCard" target="_blank" href='https://www.bbb.org/us/ca/irvine/profile/moving-services/moving-fellas-1126-1000108706'>
                 <div className="companyImg"> <img src={bbb} alt="" /></div>
                 <div className="companyInfo">4,9 stars based on 1,719 reviews</div>
-                </a>
+                </a> */}
                 <a className="companyCard" target="_blank" href='https://www.angi.com/companylist/us/ca/beverly-hills/moving-fellas-reviews-10492990.htm'>
                 <div className="companyImg"> <img src={angi} alt="" /></div>
                 <div className="companyInfo">4,9 stars based on 1,719 reviews</div>
